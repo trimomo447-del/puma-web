@@ -1,0 +1,60 @@
+@media (max-width: 480px) {
+    .login-box {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box Login */
+.login-box {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Logo */
+.login-box img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+/* Input */
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e60000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box button:hover {
+    background-color: #c40000;
+}

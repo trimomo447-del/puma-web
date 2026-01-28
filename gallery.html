@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PUMA | Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <img src="logo2.png" alt="Logo Puma">
+    </div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="harga.html">Daftar Harga</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Gallery PUMA</h1>
+    <p>Koleksi produk olahraga dan lifestyle PUMA</p>
+</section>
+
+<section class="gallery">
+    <div class="grid">
+        <div class="card">
+            <img src="sepatu.jpg" alt="Sepatu Puma">
+            <p>Sepatu Olahraga</p>
+        </div>
+
+        <div class="card">
+            <img src="jaket.jpg" alt="Jaket Puma">
+            <p>Jaket Sport</p>
+        </div>
+
+        <div class="card">
+            <img src="kaos.jpg" alt="Kaos Puma">
+            <p>Kaos Olahraga</p>
+        </div>
+
+        <div class="card">
+            <img src="aksesoris.jpg" alt="Aksesoris Puma">
+            <p>Aksesoris</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 PUMA Indonesia</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+    checkLogin();
+</script>
+
+</body>
+</html>
